@@ -11,12 +11,14 @@ function factorial(num) {
   return product;
 }
 
-// function r_factorial(num){
+// function factorial(num){
 //   if (num < 0) {
 //     throw Error;
 //   }
-//   if (num == 1) return 1;
-//   return num * r_factorial(num-1)
+//   if (num === 1) {
+//     return 1;
+//   }
+//   return num * factorial(num-1)
 // }
 
 
